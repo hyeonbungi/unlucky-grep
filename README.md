@@ -10,7 +10,14 @@
 ## Usages
 
 ```Bash
+# 영문 대소문자를 구분하여 검색
 > unlucky-grep [search_query] [file_path]
+
+# 영문 대소문자를 구분하지 않고 검색
+# Linux & macOS
+> IGNORE_CASE=1 unlucky-grep [search_query] [file_path]
+# Windows
+> $Env:IGNORE_CASE=1; unlucky-grep [search_query] [file_path]
 ```
 
 ## References
