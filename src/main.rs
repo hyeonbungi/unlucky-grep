@@ -11,9 +11,6 @@ fn main() {
         process::exit(1);
     });
 
-    println!("검색 쿼리: {}", config.search_query);
-    println!("파일 경로: {}", config.file_path);
-
     if let Err(err) = unlucky_grep::run(config) {
         println!("[오류] {err}");
         process::exit(1);

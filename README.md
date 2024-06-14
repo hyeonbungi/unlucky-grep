@@ -7,6 +7,12 @@
 * 작성 언어: Rust
 * 구동 플랫폼: Windows, Linux, macOS
 
+## Usages
+
+```Bash
+> unlucky-grep [search_query] [file_path]
+```
+
 ## References
 
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
